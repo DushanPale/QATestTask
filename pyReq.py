@@ -1,12 +1,11 @@
 import requests
 
-def main():
-	resp = requests.delete("https://qa-sandbox.apps.htec.rs/use-cases/2034")
+def delete_use_case(use_case_id):
+	resp = requests.delete("https://qa-sandbox.apps.htec.rs/use-cases/{}".format(use_case_id))
 	print(resp)
 	
-	
-	
+	# Does not work, but sends back confirmation message (200 OK)
 	
 if __name__ == "__main__":
-	main()
+	delete_use_case(2034)
 
