@@ -14,4 +14,6 @@ I found out that for "test auto" API endpoint is https://qa-sandbox.apps.htec.rs
  that I do not have any documentation.
  
  
+ P.S. I was not sure if I was ment to write all this as a report on website or here, I hope this is fine.
+ 
  
